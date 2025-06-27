@@ -9,7 +9,7 @@ WORKDIR /app
 # *** A LINHA DA SOLUÇÃO ***
 # Copia o CONTEÚDO da sua subpasta de projeto para o diretório de trabalho.
 # O resultado será /app/pom.xml, /app/src, etc.
-COPY evolua-fit-backend/ .
+COPY . .
 
 # Agora, o Maven roda em /app, onde o pom.xml está.
 RUN mvn clean package -DskipTests
