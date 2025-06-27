@@ -1,6 +1,6 @@
 # Estágio 1: Build da aplicação com Maven
 FROM maven:3.8.5-openjdk-17 AS build
-WORKDIR /app
+WORKDIR /app/evolua-fit-backend
 COPY . .
 RUN mvn clean package -DskipTests
 
