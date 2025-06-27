@@ -1,2 +1,4 @@
 /mvnw text eol=lf
 *.cmd text eol=crlf
+# Diga ao Git para sempre usar LF (padrão Unix) nos finais de linha ao fazer commit.
+* text=auto eol=lf

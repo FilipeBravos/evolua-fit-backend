@@ -9,5 +9,5 @@ public class EvoluaFitBackendApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EvoluaFitBackendApplication.class, args);
 	}
-
 }
+
